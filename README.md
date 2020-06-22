@@ -17,6 +17,8 @@ This repository contains Jupyter notebooks for the challenge problems of the 202
 * Taysia Peterson
 * Gunther Wallach
 * Siyaun Wang
+* Ankur Mahesh
+* Natasha Flyer
 
 ## Challenge Problems
 
@@ -27,6 +29,8 @@ This repository contains Jupyter notebooks for the challenge problems of the 202
 * GECKO [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NCAR/ai4ess-hackathon-2020/blob/master/notebooks/gecko.ipynb): Emulate the GECKO-A complex organic chemistry model with a simpler machine learning approach.
 
 * Microphysics [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NCAR/ai4ess-hackathon-2020/blob/master/notebooks/microphysics.ipynb): Emulate the warm rain processes within the Tel Aviv University (TAU) spectral bin microphysics scheme for use within the Community Atmosphere Model.
+
+* El Niño [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NCAR/ai4ess-hackathon-2020/blob/master/notebooks/seasonal_forecasting.ipynb): Predict the intensity of ENSO from spatial observations and climate model output.
 
 ## Requirements
 The hackathon notebooks require the following Python libraries and at least Python 3.7 installed:
@@ -48,6 +52,7 @@ The hackathon notebooks require the following Python libraries and at least Pyth
 * goes16ci
 * mlmicrophysics
 * jupyter
+* zarr
 
 ## Setup
 The hackathon notebooks can be run from 3 platforms: Jupyterhub, Google Colab, and locally. Jupyterhub and Google Colab run entirely within the browser, so all you will require is a modern internet browser and a strong web connection. Advanced users can install and run on their local machine, but deep learning training performance may be degraded by the lack of GPU.
